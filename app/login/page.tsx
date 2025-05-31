@@ -38,7 +38,11 @@ export default function LoginPage() {
       password: password
     })
 
- 
+    if (result?.ok) {
+      router.push("/collections")
+    } else {
+      setError("Giriş başarısız. Lütfen bilgilerinizi kontrol edin.")
+    }
   }
 
   return (
