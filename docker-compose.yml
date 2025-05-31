@@ -7,7 +7,6 @@ services:
       - "3000:3000"
     environment:
       - NODE_ENV=production
-      - NEXTAUTH_URL=http://localhost:3000
       - NEXTAUTH_SECRET=123456
       - API_BASE_URL=https://maestro-api-dev.secil.biz
       - API_SECRET_TOKEN=YOUR_SECRET_TOKEN
