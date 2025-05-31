@@ -1,0 +1,32 @@
+
+
+## Getting Started
+
+First, run the development server:
+
+```bash
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+# or
+bun dev
+```
+
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+
+
+## Dağıtım (Deployment)
+
+### Docker ile Dağıtım
+Docker kullanarak projeyi ayağa kaldırmak için:
+
+```bash
+docker build -t collection-manager .
+docker-compose up
+```
+
+### Vercel ile Dağıtım
+
+Bu proje Vercel üzerinde başarıyla yayınlanmıştır. 
