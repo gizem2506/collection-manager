@@ -27,7 +27,3 @@ docker build -t collection-manager .
 docker-compose up
 ```
 
-### Vercel ile Dağıtım
-
-Bu proje Vercel üzerinde başarıyla yayınlanmıştır. 
-https://collection-manager-sepia.vercel.app/
